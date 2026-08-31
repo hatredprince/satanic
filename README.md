@@ -9,15 +9,13 @@ Features:
 
 Requirements:
 - Linux
-- G++ (C++17)
-- Root privileges
+- G++ (C++)
+- Root
 
 Build:
-```bash
 g++ -O3 -std=c++17 -pthread -o satanic satanic.cpp
 
 Usage:
-```bash
 sudo ./satanic <target_ip> <port>
 
 Examples:
