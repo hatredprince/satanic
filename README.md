@@ -9,8 +9,8 @@ Features:
 
 Requirements:
 - Linux
-- G++ (C++)
-- Root
+- G++ (C++17)
+- Root privileges
 
 Build:
 ```bash
@@ -21,11 +21,8 @@ Usage:
 sudo ./satanic <target_ip> <port>
 
 Examples:
-```bash
 sudo ./satanic 192.168.1.100 80 500
 sudo ./satanic 93.184.216.34 443 2000
 sudo ./satanic 10.0.0.1 8080
 
-Stopping the process:
-```bash
-CTRL+C 
+Completing the process - CTRL+C.
