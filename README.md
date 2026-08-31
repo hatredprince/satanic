@@ -20,10 +20,8 @@ Usage:
 
 sudo ./satanic <target_ip> <port>
 
-Examples:
+Example:
 
-sudo ./satanic 192.168.1.100 80 500;
-sudo ./satanic 93.184.216.34 443 2000;
-sudo ./satanic 10.0.0.1 8080
+sudo ./satanic 192.168.1.100 80 500
 
 Completing the process - CTRL+C.
